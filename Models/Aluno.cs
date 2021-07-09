@@ -25,12 +25,11 @@ namespace CadEscola.Models
 
         [StringLength(11)]
         [RegularExpression(@"/^\d{3}\.\d{3}\.\d{3}\-\d{2}$/", ErrorMessage = "O {0} está invalido" )]
+        
         public String CPF { get; set; }
         
         public int responsavelId { get; set; }
 
-        private class ErrorMessageAttribute : Attribute
-        {
-        }
+     
     }
 }
