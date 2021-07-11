@@ -38,8 +38,8 @@ namespace CadEscola.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<int>("NumeroCertidaoNova")
-                        .HasColumnType("int");
+                    b.Property<string>("NumeroCertidaoNova")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("responsavelId")
                         .HasColumnType("int");
