@@ -155,3 +155,8 @@ C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Vi
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Details.cshtml.g.cs
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Edit.cshtml.g.cs
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Index.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsavels\Create.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsavels\Delete.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsavels\Details.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsavels\Edit.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsavels\Index.cshtml.g.cs
