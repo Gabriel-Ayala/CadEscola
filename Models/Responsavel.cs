@@ -11,12 +11,12 @@ namespace CadEscola.Models
         [ForeignKey("aluno")]
 
         public int ResponsavelId { get; set; }
-        
+
         [MinLength(3, ErrorMessage = "O {0} não pode conter menos que 3 caracteres.")]
         [MaxLength(180, ErrorMessage = "O {0} não pode conter mais que 200 caracteres.")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public int Nome { get; set; }
-        
+
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -35,7 +35,7 @@ namespace CadEscola.Models
         {
             List<ValidationResult> ResponsavelErrors = new List<ValidationResult>();
 
-            if (Date.Age(DataNascimento) < 18) 
+            if (Date.Age(DataNascimento) < 18)
             {
                 ResponsavelErrors.Add(new ValidationResult("A idade do responsável tem que ser superior a 18 anos"));
             }

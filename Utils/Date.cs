@@ -5,7 +5,7 @@ namespace CadEscola.Utils
     public class Date
     {
 
-        public static int Age(DateTime birthday) 
+        public static int Age(DateTime birthday)
         {
             var _birthday = birthday;
             var age = DateTime.Today.Year - _birthday.Year;

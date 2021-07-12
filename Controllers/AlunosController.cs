@@ -1,8 +1,8 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
+﻿using CadEscola.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CadEscola.Models;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CadEscola.Controllers
 {
