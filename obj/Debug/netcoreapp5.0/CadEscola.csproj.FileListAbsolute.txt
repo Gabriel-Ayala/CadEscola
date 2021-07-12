@@ -149,3 +149,9 @@ C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Vi
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Alunos\Details.cshtml.g.cs
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Alunos\Edit.cshtml.g.cs
 C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Alunos\Index.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\CadEscola.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Create.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Delete.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Details.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Edit.cshtml.g.cs
+C:\Users\Admin\source\repos\CadEscola\CadEscola\obj\Debug\netcoreapp5.0\Razor\Views\Responsaveis\Index.cshtml.g.cs
