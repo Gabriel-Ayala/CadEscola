@@ -11,7 +11,7 @@ namespace CadEscola.Models
     {
         [Key]
         public int AlunoId { get; set; }
-        
+
         [Required(ErrorMessage = " O campo {0} é obrigatório")]
         [MinLength(3, ErrorMessage = "O {0} não pode conter menos que 3 caracteres.")]
         [MaxLength(200, ErrorMessage = "O {0} não pode conter mais que 200 caracteres.")]
@@ -28,11 +28,10 @@ namespace CadEscola.Models
         public String NumeroCertidaoNova { get; set; }
 
         [StringLength(11)]
-        [RegularExpression(@"/^\d{3}\.\d{3}\.\d{3}\-\d{2}$/", ErrorMessage = "O {0} está invalido" )]
+        [RegularExpression(@"[0-9]{11}", ErrorMessage = "O {0} está invalido")]
         public String CPF { get; set; }
-        
-        public int ResponsavelId { get; set; }
 
+        public int ResponsavelId { get; set; }
         public virtual Responsavel Responsavel { get; set; }
 
 
@@ -40,7 +39,7 @@ namespace CadEscola.Models
         {
             List<ValidationResult> AlunoErrors = new List<ValidationResult>();
 
-            if (CPF == null && NumeroCertidaoNova == null) 
+            if (CPF == null && NumeroCertidaoNova == null)
             {
                 AlunoErrors.Add(new ValidationResult("é necessário o campo CPF ou Certidão de Nascimento"));
             }
@@ -48,7 +47,7 @@ namespace CadEscola.Models
             {
                 AlunoErrors.Add(new ValidationResult("é obrigatório para alunos menores de idade cadastro de responsável"));
             }
-            if (Date.Age(DataNascimento) < 6) 
+            if (Date.Age(DataNascimento) < 6)
             {
                 AlunoErrors.Add(new ValidationResult("a aluno deve ter 6 anos ou mais"));
             }
